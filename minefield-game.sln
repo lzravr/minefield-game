@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{58A18074-058E-4EA4-AB83-7E079ED60FF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{09818375-2354-41D5-8B7F-9CCE246E5D86}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minefield.Console", "Minefield.Console\Minefield.Console.csproj", "{421C0B3B-96C5-4491-B6C6-C658BC6008B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minefield.Game", "Minefield.Game\Minefield.Game.csproj", "{3F2BE122-ADC8-4EE2-A648-4E4B19C22456}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minefield.Tests.Unit", "Minefield.Tests.Unit\Minefield.Tests.Unit.csproj", "{88A20112-B0CA-4EDB-B0D5-C033338C97BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{421C0B3B-96C5-4491-B6C6-C658BC6008B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{421C0B3B-96C5-4491-B6C6-C658BC6008B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{421C0B3B-96C5-4491-B6C6-C658BC6008B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{421C0B3B-96C5-4491-B6C6-C658BC6008B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F2BE122-ADC8-4EE2-A648-4E4B19C22456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F2BE122-ADC8-4EE2-A648-4E4B19C22456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F2BE122-ADC8-4EE2-A648-4E4B19C22456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F2BE122-ADC8-4EE2-A648-4E4B19C22456}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88A20112-B0CA-4EDB-B0D5-C033338C97BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88A20112-B0CA-4EDB-B0D5-C033338C97BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88A20112-B0CA-4EDB-B0D5-C033338C97BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88A20112-B0CA-4EDB-B0D5-C033338C97BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{421C0B3B-96C5-4491-B6C6-C658BC6008B4} = {58A18074-058E-4EA4-AB83-7E079ED60FF4}
+		{3F2BE122-ADC8-4EE2-A648-4E4B19C22456} = {58A18074-058E-4EA4-AB83-7E079ED60FF4}
+		{88A20112-B0CA-4EDB-B0D5-C033338C97BB} = {09818375-2354-41D5-8B7F-9CCE246E5D86}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEC156EC-B008-4CA2-81EA-4714E5040423}
+	EndGlobalSection
+EndGlobal
