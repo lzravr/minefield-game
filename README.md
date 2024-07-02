@@ -1,1 +1,2 @@
-# minefield-game
+# Minefield Game
+Just run and play. There are two ways to play, both in console. First is as described in the assignment and the second allows the player to use the arrow keys and see the whole field and the players position.
